@@ -34,7 +34,7 @@ First, to share the snapshots between accounts, run:
 
 ```python3.7 scripts/snaps.py```
 
-The output will be available in the AWS S3 Bucket provided in the environment variables in the path: 's3-bucket/history/snaps.json' 
+The output with all tags and snapshots will be available in the AWS S3 Bucket provided in the environment variables in the path: 's3-bucket/history/snaps.json' 
 
 Second, to migrate the snapshots between regions, run: 
 
